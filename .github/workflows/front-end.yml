@@ -3,10 +3,10 @@ name: Deploy to AWS S3
 on:
   push:
     branches: 
-        -master
-        paths:
+        - master
+    paths:
         - 'frontend/**' # replace this with the name of the branch you want to deploy from
-        jobs:
+jobs:
             deploy:
               runs-on: ubuntu-latest
               steps:
