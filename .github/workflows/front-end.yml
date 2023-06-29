@@ -19,3 +19,7 @@ jobs:
                   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                   AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
                   SOURCE_DIR: 'frontend'      # optional: defaults to entire repository
+              
+              - name: Invalidate CloudFront distribution
+                run: |
+                  aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
