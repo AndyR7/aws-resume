@@ -4,8 +4,6 @@ on:
   push:
     branches: 
         - master
-    paths:
-        - 'frontend/**' # replace this with the name of the branch you want to deploy from
 jobs:
             deploy:
               runs-on: ubuntu-latest
