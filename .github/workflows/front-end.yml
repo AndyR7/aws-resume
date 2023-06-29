@@ -2,8 +2,9 @@ name: Deploy to AWS S3
 
 on:
   push:
-    branches: 
-        - master
+    branches: [ main ]
+    paths:
+    - 'frontend/**'
 jobs:
             deploy:
               runs-on: ubuntu-latest
