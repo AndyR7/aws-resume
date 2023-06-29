@@ -1,5 +1,5 @@
 // Replace this URL with the URL of your Azure Function
-const url = 'https://cloudres.azurewebsites.net/api/cloudreshttp';
+const url = 'https://mgewr4tcapsrfwqwfptlhhautq0bekzi.lambda-url.us-east-1.on.aws/';
 
 // If you have a visitor ID stored in a cookie, include it in the query parameters
 // const visitorId = getVisitorIdFromCookie();
