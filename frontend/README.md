@@ -32,4 +32,4 @@ The back-end is an [Event-driven Lamdba Functions](https://docs.aws.amazon.com/l
 
 ## CI/CD Resources
 
-- This is how you can deploy to an S3 Bucket in AWS with [GitHub actions.](https://github.com/jakejarvis/s3-sync-action)
+- This is how you can deploy to an S3 Bucket in AWS with [GitHub actions.](https://github.com/jakejarvis/s3-sync-action) 
